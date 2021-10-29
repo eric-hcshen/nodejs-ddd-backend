@@ -1,0 +1,28 @@
+###
+
+
+POST  http://localhost:3000/api/v1/users/auth
+content-type: application/json
+
+{
+    "email" : "abc456@das.com", 
+    "password": "dfjads12asf213asss"
+}
+
+###
+
+POST  http://localhost:3000/api/v1/users/auth/local
+content-type: application/json
+
+{
+    "email" : "abc@das.com", 
+    "password": "dfjads12asf213asss"
+}
+
+###
+
+
+
+GET http://localhost:3000/api/v1/users/auth/
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhZmUzN2IyYTEzZWY1NzFjNDM0NiIsImVtYWlsIjoiYWJjQGRhcy5jb20iLCJyYW5kb21pemVyIjoiMjZiYTVlMTBlYzBjNTk5MjMzMmY2YTMwMGU2NGNjYjg3NWJjMDE3YiIsImNyZWF0aW9uRGF0ZSI6MTYzMjIxMDU4NjUwMSwiZXhwIjoxNjYzNzQ2NTg2LjUsImlhdCI6MTYzMjIxMDU4Nn0.k_7TVMUCrUyzjy-fviGzmTt0XY5RSziIBa6KdOxYL20
